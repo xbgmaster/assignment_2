@@ -4,10 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $b = escapeshellarg($_POST['b']);
     $c = escapeshellarg($_POST['c']);
 
-    $script = "C:\\xampp\\htdocs\\calculate.py";
-
-    //$command = "python $script $a $b $c";
-    $command = "python3 /var/www/html/calculate.py $a $b $c";
+    $command = "python3 /var/www/html/assignment_2/calculate.py $a $b $c";
     $output = [];
     exec($command, $output);
 

@@ -13,7 +13,6 @@ multiplied = division * 10
 result = b + multiplied
 timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-# Imprimir resultados en texto plano
 print(result)       
 print(c)            
 print(c_cubed)      
